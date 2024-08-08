@@ -1,13 +1,13 @@
 spectaql:
-  targetDir: ./docs
-  logoFile: ./assets/logo.png
-  faviconFile: ./assets/logo.png
+  targetDir: .
+  logoFile: ../logo.png
+  faviconFile: ../logo.png
   displayAllServers: true
-  themeDir: ./docs/custom-theme
+  themeDir: ./custom-theme
 
 introspection:
   removeTrailingPeriodFromDescriptions: false
-  schemaFile: ./schemas/*.graphqls
+  schemaFile: ../../../../chaoscenter/graphql/definitions/shared/*.graphqls
   queryNameStrategy: capitalizeFirst
   fieldExpansionDepth: 2
 
