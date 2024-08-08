@@ -3,7 +3,7 @@ name: Deploy Docs
 on:
   push:
     branches:
-      - master
+      - feature/update-api-docs-3.9.1-spectaql
 
 jobs:
   deploy:
