@@ -412,4 +412,8 @@
          <loc>https://litmuschaos.github.io/litmus/experiments/troubleshooting/scheduler/</loc>
          <lastmod>2024-09-24</lastmod>
     </url>
+    <url>
+         <loc>https://litmuschaos.github.io/litmus/graphql/v3.9.x/error_response_guide/</loc>
+         <lastmod>2024-09-24</lastmod>
+    </url>
 </urlset>
