@@ -21,6 +21,10 @@ info:
   title: ChaosCenter API Documentation
   description: Litmus Portal provides console and UI experience for managing, monitoring, and events around chaos workflows. Chaos workflows consist of a sequence of experiments run together to achieve the objective of introducing some kind of fault into an application or the Kubernetes platform.
 
+  x-introItems:
+    - title: Common Error Response
+      file: ./mkdocs/docs/graphql/v3.10.x/error_response_guide.md
+
 servers:
   - url: http://localhost:8080
     description: Dev
